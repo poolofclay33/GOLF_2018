@@ -13,10 +13,10 @@ public class RotatePutter : MonoBehaviour {
 	void Update () {
 
         if (Input.GetKey("a")) {
-            transform.Rotate(0, -1, 0);
+            transform.Rotate(0, 1, 0);
         }
         if(Input.GetKey("d")) {
-            transform.Rotate(0, 1, 0);
+            transform.Rotate(0, -1, 0);
         }
 	}
 }

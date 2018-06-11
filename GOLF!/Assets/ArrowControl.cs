@@ -33,6 +33,7 @@ public class ArrowControl : MonoBehaviour {
         {
             transform.Rotate(0, 0, 1);
         }
+
         if (Input.GetKey("d"))
         {
             transform.Rotate(0, 0, -1);
