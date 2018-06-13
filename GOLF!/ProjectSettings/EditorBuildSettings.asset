@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/_MiniGolf/Scenes/golf_menu.unity
+    guid: 2c2d6aa6dbe5d4fe38c4eea3e6c1e0ed
+  - enabled: 1
+    path: Assets/Hole(1).unity
+    guid: 5d3ac0950c1edbb4890df7d2fbd3734b
+  - enabled: 1
     path: Assets/_MiniGolf/Scenes/courseA/Hole00.unity
     guid: 6eff834f0ee8e491a8b6cda0c811461a
   - enabled: 1

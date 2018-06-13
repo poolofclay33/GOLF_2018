@@ -14,17 +14,17 @@ public class RollCamera : MonoBehaviour
 	/// <summary>
 	/// The look slerp.
 	/// </summary>
-	public float lookSlerp=5;
+	private float lookSlerp=0;
 	
 	/// <summary>
 	/// The z offset.
 	/// </summary>
-	public float zOffset=5;
+	private float zOffset=5;
 	
 	/// <summary>
 	/// The y offset.
 	/// </summary>
-	public float yOffset = 2;
+	private float yOffset = 2;
 	
 
 	private BallScript m_ballScript;

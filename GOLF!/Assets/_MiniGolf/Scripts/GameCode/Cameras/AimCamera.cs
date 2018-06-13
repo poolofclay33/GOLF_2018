@@ -15,7 +15,8 @@ public class AimCamera : MonoBehaviour
 	/// <summary>
 	/// The camera offset.
 	/// </summary>
-	public Vector3 cameraOffset = new Vector3(4,4,0);
+	private Vector3 cameraOffset = new Vector3(0, 1.2f, -3.5f);
+
 	
 	/// <summary>
 	/// The target offset.
