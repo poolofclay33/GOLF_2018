@@ -86,7 +86,7 @@ public class InitState : MonoBehaviour {
 			waitGO.SetActive(false);
 		}
 
-		startButtonGO.SetActive(true);
+		startButtonGO.SetActive(false);
 		FMG.Constants.fadeInFadeOut(playState,introState);
 		BaseGameManager.startGame();
 			
