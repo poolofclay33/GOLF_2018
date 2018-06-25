@@ -16,6 +16,7 @@ public class ArrowControl : MonoBehaviour {
 	void Update () {
 
         if(Input.GetKey("w")) {
+            
             yScale += .05f;
             forceColor -= 0.01f;
             GetComponent<Transform>().localScale = new Vector3(.2f, yScale, 1);
@@ -23,6 +24,7 @@ public class ArrowControl : MonoBehaviour {
         }
 
         if(Input.GetKey("s")) {
+            
             yScale -= .05f;
             forceColor += 0.01f;
             GetComponent<Transform>().localScale = new Vector3(.2f, yScale, 1);
